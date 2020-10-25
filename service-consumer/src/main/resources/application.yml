@@ -1,0 +1,13 @@
+server:
+  port: 8002
+spring:
+  devtools:
+    livereload:
+      port: 35730
+  application:
+    name: service-consumer
+
+eureka:
+  client:
+    service-url:
+       defaultZone: http://localhost:8000/eureka
