@@ -1,7 +1,0 @@
-eureka:
-  client:
-    register-with-eureka: false
-    fetch-register: false
-    service-url:
-      defaultZone: http://localhost:8000/eureka
-
